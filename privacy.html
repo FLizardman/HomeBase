@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homebase Privacy Policy</title>
+<meta name="description" content="How Homebase, a private household app, uses Gmail data.">
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --line: #e3e3e3; --link: #1a5fb4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161618; --fg: #ececec; --muted: #a0a0a6; --line: #333338; --link: #8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2rem 16px 3rem; overflow-wrap: anywhere; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .3rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+  p, li { margin: .4rem 0; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); }
+  .muted { color: var(--muted); }
+  code { font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Homebase Privacy Policy</h1>
+  <p class="muted">Effective October 19, 2026</p>
+
+  <p>Homebase is a private app run by one household for its own members. It isn't offered to the public: only
+    people the household adds can use it. This page explains what it does with your
+    Google data.</p>
+
+  <h2>What it accesses</h2>
+  <ul>
+    <li>Connecting Gmail is each person's own choice. Nothing is read until you connect.</li>
+    <li>It asks only for <strong>read-only</strong> access to Gmail (<code>gmail.readonly</code>). It can't send,
+      delete, label or change any of your mail.</li>
+  </ul>
+
+  <h2>How it uses your mail</h2>
+  <ul>
+    <li>New mail is read about every 30 minutes, to keep your packages, bills, renewals and appointments up to date
+      in Homebase.</li>
+    <li>To understand an email, its text is sent to an AI model (Anthropic's Claude) through the household's own
+      Amazon Web Services account. That's done only to answer that one request.</li>
+  </ul>
+
+  <h2>What it keeps</h2>
+  <ul>
+    <li>For each email: its sender, subject and date, and what it found (for example a tracking number, or a bill's
+      amount and due date). The email itself isn't kept.</li>
+    <li>What it keeps is private to you: other people in the household, the app's admins included, can't see it.</li>
+    <li>It's stored on the household's own server and in that server's encrypted backup.</li>
+  </ul>
+
+  <h2>What it never does</h2>
+  <ul>
+    <li>Your data isn't sold, shared with anyone, or used for advertising.</li>
+    <li>It isn't used to train AI models.</li>
+    <li>No person reads your mail.</li>
+  </ul>
+
+  <h2>Stopping it</h2>
+  <ul>
+    <li><strong>Disconnect</strong> in Homebase (Assistant, then Settings) stops all reading and revokes Homebase's
+      access at Google. You can also remove the access any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Ask the household's admin to delete what was kept from your mail, and it will be deleted.</li>
+  </ul>
+
+  <h2>Google API Services</h2>
+  <p>Homebase's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+    Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: the support email shown on Google's Homebase sign-in screen.</p>
+</main>
+</body>
+</html>
